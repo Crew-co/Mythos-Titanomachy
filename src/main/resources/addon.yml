@@ -1,5 +1,5 @@
 name: Titanomachy
-version: 0.1.0
+version: 0.0.1
 main: net.crewco.mythos.titanomachy.TitanomachyAddon
 api-version: 1
 authors: [ Crew-co ]
