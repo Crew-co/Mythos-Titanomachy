@@ -263,7 +263,11 @@ class TitanomachyContent(private val mythos: Mythos) {
     val TARTARUS_FALLBACK = RealmDefinition(
         id = "tartarus",
         displayName = "Tartarus",
-        kind = RealmKind.NETHER,
+        kind = RealmKind.CAVERN,
+        platformY = 20,
+        roofY = 55,
+        stone = "DEEPSLATE",
+        platformMaterial = "BLACKSTONE",
         access = RealmRules.any(RealmRules.DIVINE, RealmRules.flagged(IMPRISONED)),
         entryLore = listOf("<dark_red><i>An anvil would fall for nine days to get here."),
         ambient = listOf(PotionEffectType.BLINDNESS, PotionEffectType.MINING_FATIGUE),

@@ -5,7 +5,7 @@
 Story #2 — the era **`titanomachy`**, which hands on to **`olympian-order`**.
 
 ```kotlin
-compileOnly("net.crewco:mythos-addon-api:0.1.3")
+compileOnly("net.crewco:mythos-addon-api:0.1.4")
 ```
 
 ## The mechanic worth knowing
